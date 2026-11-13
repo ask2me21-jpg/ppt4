@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Extempore Topics — 40 Topics with Marathi Meanings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700;800&family=Noto+Sans+Devanagari:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#070a16;
+  --text:#e9edf9;
+  --muted:#8b94b3;
+  --stroke:rgba(255,255,255,.09);
+}
+body{
+  margin:0;min-height:100vh;
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  color:var(--text);-webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(1000px 700px at 8% -10%, rgba(124,92,255,.18), transparent 60%),
+    radial-gradient(900px 650px at 100% -6%, rgba(34,211,238,.12), transparent 55%),
+    var(--bg);
+}
+.wrap{max-width:1240px;margin:0 auto;padding:36px 18px 70px}
+
+/* ---------- HEADER ---------- */
+.head{text-align:center;margin-bottom:44px}
+.head-icon{
+  width:74px;height:74px;margin:0 auto 16px;border-radius:22px;
+  display:grid;place-items:center;font-size:38px;line-height:1;
+  background:linear-gradient(135deg, rgba(139,92,246,.3), rgba(34,211,238,.18));
+  border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 22px 50px -20px rgba(139,92,246,.85), inset 0 1px 0 rgba(255,255,255,.18);
+}
+.head h1{
+  margin:0;font-size:clamp(26px,4.6vw,40px);font-weight:900;letter-spacing:-.035em;line-height:1.12;
+  background:linear-gradient(180deg,#fff,#a9b4d2);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.head p{margin:11px 0 0;font-size:14px;color:var(--muted);line-height:1.6}
+.head p b{color:#c4b5fd;font-weight:700}
+
+/* ---------- SECTION ---------- */
+.section{margin-top:40px}
+.section:first-of-type{margin-top:0}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:18px;padding-left:2px}
+.sec-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+  padding:8px 14px 8px 10px;border-radius:10px;border:1px solid;
+}
+.sec-tag .se{font-size:16px;line-height:1;letter-spacing:0}
+.t1{color:#fbbf24;background:rgba(251,191,36,.1);border-color:rgba(251,191,36,.32)}
+.t2{color:#34d399;background:rgba(52,211,153,.1);border-color:rgba(52,211,153,.32)}
+.t3{color:#22d3ee;background:rgba(34,211,238,.1);border-color:rgba(34,211,238,.32)}
+.t4{color:#fb7185;background:rgba(251,113,133,.1);border-color:rgba(251,113,133,.32)}
+.sec-line{flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.14),transparent)}
+
+/* ---------- GRID ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:14px}
+
+/* ---------- CARD ---------- */
+.card{
+  padding:16px 16px 17px;border-radius:20px;
+  background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+  border:1px solid var(--stroke);
+  box-shadow:0 18px 40px -32px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.06);
+  transition:border-color .22s, transform .22s, box-shadow .22s;
+}
+.card:hover{
+  transform:translateY(-3px);
+  border-color:rgba(139,92,246,.42);
+  box-shadow:0 26px 50px -28px rgba(139,92,246,.7), inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.card-top{display:flex;align-items:flex-start;gap:14px}
+
+/* BIG ICON */
+.icon-wrap{
+  flex:0 0 auto;width:66px;height:66px;border-radius:20px;
+  display:grid;place-items:center;
+  font-size:34px;line-height:1;
+  transition:transform .28s cubic-bezier(.34,1.56,.64,1);
+}
+.card:hover .icon-wrap{transform:scale(1.08) rotate(-5deg)}
+.s1 .icon-wrap{background:radial-gradient(circle at 30% 22%, rgba(251,191,36,.42), rgba(251,191,36,.08));border:1px solid rgba(251,191,36,.35);box-shadow:0 10px 26px -14px rgba(251,191,36,.7)}
+.s2 .icon-wrap{background:radial-gradient(circle at 30% 22%, rgba(52,211,153,.42), rgba(52,211,153,.08));border:1px solid rgba(52,211,153,.35);box-shadow:0 10px 26px -14px rgba(52,211,153,.7)}
+.s3 .icon-wrap{background:radial-gradient(circle at 30% 22%, rgba(34,211,238,.42), rgba(34,211,238,.08));border:1px solid rgba(34,211,238,.35);box-shadow:0 10px 26px -14px rgba(34,211,238,.7)}
+.s4 .icon-wrap{background:radial-gradient(circle at 30% 22%, rgba(251,113,133,.42), rgba(251,113,133,.08));border:1px solid rgba(251,113,133,.35);box-shadow:0 10px 26px -14px rgba(251,113,133,.7)}
+
+.meta{min-width:0;display:flex;flex-direction:column;gap:6px;flex:1}
+.num{
+  align-self:flex-start;
+  padding:3px 9px;border-radius:7px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:800;letter-spacing:.06em;
+}
+.s1 .num{color:#fbbf24;background:rgba(251,191,36,.14)}
+.s2 .num{color:#34d399;background:rgba(52,211,153,.14)}
+.s3 .num{color:#22d3ee;background:rgba(34,211,238,.14)}
+.s4 .num{color:#fb7185;background:rgba(251,113,133,.14)}
+
+.title{
+  margin:0;font-size:14.5px;font-weight:800;line-height:1.32;
+  letter-spacing:-.012em;color:#eaeffb;
+}
+
+/* ---------- MARATHI EXPLANATION ---------- */
+.marathi{
+  margin:2px 0 0;
+  font-family:'Noto Sans Devanagari','Inter',system-ui,sans-serif;
+  font-size:12.5px;font-weight:500;line-height:1.6;
+  color:#9aa7c9;
+}
+
+/* ---------- WORD BOXES (English + Marathi) ---------- */
+.words{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.w{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:7px 11px 7px 7px;border-radius:11px;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.1);
+  transition:border-color .2s, background .2s;
+}
+.w:hover{border-color:rgba(139,92,246,.4);background:rgba(139,92,246,.08)}
+.w i{
+  font-style:normal;display:grid;place-items:center;flex:0 0 auto;
+  width:19px;height:19px;border-radius:6px;
+  font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:800;
+  color:#a78bfa;background:rgba(139,92,246,.2);
+}
+.w .txt{display:flex;flex-direction:column;line-height:1.28}
+.w .en{font-size:12.5px;font-weight:700;color:#dbe2f3}
+.w .mr{
+  font-family:'Noto Sans Devanagari','Inter',system-ui,sans-serif;
+  font-size:10.5px;font-weight:500;color:#8b96b8;margin-top:1px;
+}
+
+/* ---------- FOOTER ---------- */
+.foot{margin-top:46px;text-align:center;font-size:12.5px;color:var(--muted);line-height:1.9}
+.foot b{color:#c4b5fd;font-weight:700}
+
+/* ---------- MOBILE ---------- */
+@media(max-width:640px){
+  .wrap{padding:26px 13px 56px}
+  .grid{grid-template-columns:1fr;gap:11px}
+  .card{padding:14px}
+  .icon-wrap{width:56px;height:56px;font-size:29px;border-radius:17px}
+  .title{font-size:13.5px}
+  .marathi{font-size:12px}
+  .w{padding:6px 10px 6px 6px}
+  .w .en{font-size:12px}
+  .w .mr{font-size:10px}
+  .head-icon{width:64px;height:64px;font-size:32px;border-radius:20px}
+}
+
+/* ---------- PRINT ---------- */
+@media print{
+  body{background:#fff;color:#111}
+  .head h1{color:#111;-webkit-text-fill-color:#111}
+  .head p,.foot{color:#555}
+  .card{background:#fff;border:1px solid #ddd;box-shadow:none;break-inside:avoid}
+  .title{color:#111}
+  .marathi{color:#444}
+  .w{background:#f4f4f6;border:1px solid #ddd}
+  .w .en{color:#222}
+  .w .mr{color:#555}
+  .w i{background:#e8e8ef;color:#555}
+  .sec-line{background:#ddd}
+  .icon-wrap{box-shadow:none}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="head">
+    <div class="head-icon">🎤</div>
+    <h1>Extempore Topics</h1>
+    <p>40 topics &nbsp;·&nbsp; English + मराठी अर्थ &nbsp;·&nbsp; <b>बोलायला सुरुवात करा</b></p>
+  </header>
+
+  <div id="out"></div>
+
+  <div class="foot">
+    One word = one idea. Speak through the boxes in order.<br>
+    <b>एक शब्द = एक कल्पना. खोक्यांप्रमाणे क्रमाने बोला.</b>
+  </div>
+
+</div>
+
+<script>
+/* =========================================================
+   SETS
+   ========================================================= */
+const SETS = [
+  { key: 1, name: 'Warm-up', icon: '☕', tag: 't1', scls: 's1' },
+  { key: 2, name: 'Social',  icon: '🌍', tag: 't2', scls: 's2' },
+  { key: 3, name: 'Tech',    icon: '💻', tag: 't3', scls: 's3' },
+  { key: 4, name: 'Debate',  icon: '⚡', tag: 't4', scls: 's4' }
+];
+
+/* =========================================================
+   40 TOPICS
+   icon + English title + Marathi explanation
+   seq: [englishWord, मराठी अर्थ]
+   ========================================================= */
+const TOPICS = [
+  /* ---------- 1–10 : WARM-UP ---------- */
+  { id: 1,  set: 1, icon: '🎓', topic: 'My First Day at College',
+    marathi: 'कॉलेजमध्ये पहिल्या दिवशी काय झालं, कसं वाटलं ते सांगा.',
+    seq: [['nervous','अस्वस्थ'],['new faces','नवीन चेहरे'],['wrong room','चुकीची खोली'],['lost','हरवलो'],['asked help','मदत मागितली'],['made friend','मित्र केला'],['laughed','हसलो'],['belonged','आपुलकी वाटली'],['survived','तग धरलं']] },
+
+  { id: 2,  set: 1, icon: '🎯', topic: 'A Skill I Want to Learn',
+    marathi: 'तुम्हाला कोणतं कौशल्य शिकायचंय, का आणि कसं शिकाल ते सांगा.',
+    seq: [['what','काय'],['why','का'],['when','कधी'],['how','कसं'],['cost','खर्च'],['practice','सराव'],['struggle','संघर्ष'],['progress','प्रगती'],['mastery','प्राविण्य']] },
+
+  { id: 3,  set: 1, icon: '📱', topic: 'My Favourite App',
+    marathi: 'तुमचं आवडतं मोबाइल अ‍ॅप आणि ते का आवडतं ते सांगा.',
+    seq: [['name','नाव'],['daily use','रोजचा वापर'],['best feature','सर्वोत्तम वैशिष्ट्य'],['why love','का आवडतं'],['what annoys','काय त्रास देतं'],['one fix','एक सुधारणा'],['better version','सुधारित आवृत्ती']] },
+
+  { id: 4,  set: 1, icon: '🌙', topic: 'Morning Person or Night Owl',
+    marathi: 'तुम्ही सकाळी लवकर उठता की रात्री उशिरापर्यंत जागता, ते सांगा.',
+    seq: [['habit','सवय'],['alarm','गजर'],['snooze','पुन्हा झोप'],['coffee','कॉफी'],['focus','एकाग्रता'],['deadline','अंतिम मुदत'],['night','रात्र'],['quiet','शांतता'],['productivity','उत्पादकता'],['honest answer','खरं उत्तर']] },
+
+  { id: 5,  set: 1, icon: '💔', topic: 'The Last Time I Failed',
+    marathi: 'शेवटची वेळ तुम्ही कधी अपयशी झालात आणि त्यातून काय शिकलात ते सांगा.',
+    seq: [['moment','क्षण'],['mistake','चूक'],['blame','दोष'],['silence','शांतता'],['reflect','विचार'],['lesson','धडा'],['retry','पुन्हा प्रयत्न'],['result','निकाल'],['growth','वाढ']] },
+
+  { id: 6,  set: 1, icon: '🖥️', topic: 'My Ideal Workspace',
+    marathi: 'तुम्हाला काम करायला कशी जागा आवडेल ते सांगा.',
+    seq: [['quiet','शांत'],['desk','टेबल'],['good chair','चांगली खुर्ची'],['fast internet','वेगवान इंटरनेट'],['two screens','दोन स्क्रीन'],['snacks','खाणं'],['plants','रोपं'],['no meetings','बैठका नको'],['music','संगीत'],['freedom','स्वातंत्र्य']] },
+
+  { id: 7,  set: 1, icon: '📵', topic: 'Mobile Phone: Boon or Bane',
+    marathi: 'मोबाइलचे फायदे आणि तोटे सांगा — तो वरदान आहे की शाप?',
+    seq: [['connect','जोडणं'],['learn','शिकणं'],['earn','कमावणं'],['waste','वाया घालवणं'],['scroll','स्क्रोल'],['sleep','झोप'],['addiction','व्यसन'],['balance','समतोल'],['rules','नियम'],['choice','निवड']] },
+
+  { id: 8,  set: 1, icon: '🧑‍🏫', topic: 'A Teacher Who Changed Me',
+    marathi: 'तुमच्या आयुष्यात बदल घडवणाऱ्या शिक्षकांबद्दल सांगा.',
+    seq: [['name','नाव'],['subject','विषय'],['strict','कडक'],['scary','भीतीदायक'],['patient','संयमी'],['question','प्रश्न'],['answer','उत्तर'],['confidence','आत्मविश्वास'],['path','मार्ग'],['gratitude','कृतज्ञता']] },
+
+  { id: 9,  set: 1, icon: '💰', topic: 'Money and Happiness',
+    marathi: 'पैसा आनंद देतो का? तुमचं मत सांगा.',
+    seq: [['needs','गरजा'],['wants','इच्छा'],['salary','पगार'],['pressure','दबाव'],['family','कुटुंब'],['security','सुरक्षितता'],['freedom','स्वातंत्र्य'],['enough','पुरेसं'],['greed','लोभ'],['balance','समतोल']] },
+
+  { id: 10, set: 1, icon: '⏰', topic: 'My Daily Routine',
+    marathi: 'सकाळपासून रात्रीपर्यंत तुमचा दिवस कसा जातो ते सांगा.',
+    seq: [['wake','उठणं'],['coffee','कॉफी'],['commute','प्रवास'],['work','काम'],['lunch','जेवण'],['meetings','बैठका'],['gym','व्यायाम'],['dinner','रात्रीचं जेवण'],['screen','स्क्रीन'],['sleep late','उशिरा झोप']] },
+
+  /* ---------- 11–20 : SOCIAL ---------- */
+  { id: 11, set: 2, icon: '🏠', topic: 'Work From Home vs Office',
+    marathi: 'घरून काम करणं चांगलं की ऑफिसमध्ये जाऊन — दोन्हींचे फायदे-तोटे सांगा.',
+    seq: [['freedom','स्वातंत्र्य'],['no commute','प्रवास नाही'],['pyjamas','घरातले कपडे'],['isolation','एकटेपणा'],['distractions','लक्ष विचलित'],['family','कुटुंब'],['meetings','बैठका'],['collaboration','सहकार्य'],['discipline','शिस्त'],['hybrid','मिश्र पद्धत']] },
+
+  { id: 12, set: 2, icon: '💬', topic: 'Social Media and Self-Worth',
+    marathi: 'सोशल मीडिया आपल्याला कसा बदलतो आणि आत्मसन्मानावर कसा परिणाम करतो ते सांगा.',
+    seq: [['post','पोस्ट'],['filter','फिल्टर'],['likes','लाईक्स'],['compare','तुलना'],['doubt','शंका'],['anxiety','चिंता'],['delete','डिलीट'],['real friends','खरे मित्र'],['offline','ऑफलाइन'],['worth','मूल्य']] },
+
+  { id: 13, set: 2, icon: '📚', topic: 'Reading vs Watching',
+    marathi: 'वाचन चांगलं की व्हिडीओ पाहणं — कोणतं जास्त उपयुक्त आणि का ते सांगा.',
+    seq: [['book','पुस्तक'],['patience','संयम'],['imagination','कल्पना'],['depth','खोली'],['speed','वेग'],['video','व्हिडीओ'],['memory','स्मरण'],['retention','टिकवणं'],['both','दोन्ही'],['choose','निवड']] },
+
+  { id: 14, set: 2, icon: '📊', topic: 'The Pressure to Score High',
+    marathi: 'जास्त मार्क्स मिळवण्याचा दबाव आणि त्याचे परिणाम याबद्दल सांगा.',
+    seq: [['marks','गुण'],['rank','क्रमांक'],['parents','पालक'],['comparison','तुलना'],['fear','भीती'],['tuition','क्लास'],['skills','कौशल्यं'],['ignored','दुर्लक्षित'],['stress','तणाव'],['rethink','पुनर्विचार']] },
+
+  { id: 15, set: 2, icon: '🤝', topic: 'Teamwork Beats Talent',
+    marathi: 'एकट्या हुशार माणसापेक्षा टीमने काम केल्यावर काय फायदा होतो ते सांगा.',
+    seq: [['star','स्टार'],['ego','अहंकार'],['clash','टक्कर'],['trust','विश्वास'],['divide','विभागणी'],['communicate','संवाद'],['support','आधार'],['combine','एकत्र'],['result','निकाल'],['team','संघ']] },
+
+  { id: 16, set: 2, icon: '📖', topic: 'Learning Never Stops',
+    marathi: 'शाळा संपली तरी शिकणं कधीच थांबत नाही — हे उदाहरण देऊन सांगा.',
+    seq: [['school','शाळा'],['degree','पदवी'],['job','नोकरी'],['new tool','नवं साधन'],['fear','भीती'],['course','अभ्यासक्रम'],['practice','सराव'],['mistake','चूक'],['adapt','जुळवून घेणं'],['forever','कायम']] },
+
+  { id: 17, set: 2, icon: '🏙️', topic: 'City Life vs Village Life',
+    marathi: 'शहराचं जीवन आणि गावाचं जीवन यात फरक काय आहे ते सांगा.',
+    seq: [['crowd','गर्दी'],['opportunity','संधी'],['rent','भाडं'],['pollution','प्रदूषण'],['calm','शांतता'],['slow','हळू'],['limited','मर्यादित'],['community','समाज'],['choose','निवड'],['trade-off','तडजोड']] },
+
+  { id: 18, set: 2, icon: '⏳', topic: 'Time Management Is a Myth',
+    marathi: 'वेळेचं व्यवस्थापन खरंच शक्य आहे का, की तो एक गैरसमज आहे ते सांगा.',
+    seq: [['busy','व्यस्त'],['list','यादी'],['priority','प्राधान्य'],['distraction','विचलन'],['calendar','दिनदर्शिका'],['guilt','अपराधीपणा'],['energy','ऊर्जा'],['output','उत्पादन'],['honest','प्रामाणिक'],['focus','एकाग्रता']] },
+
+  { id: 19, set: 2, icon: '🗣️', topic: 'English: Skill or Barrier',
+    marathi: 'इंग्रजी शिकण्याच्या अडचणी आणि तिचे फायदे याबद्दल सांगा.',
+    seq: [['fear','भीती'],['grammar','व्याकरण'],['silence','शांतता'],['practice','सराव'],['mistakes','चुका'],['fluency','अस्खलितपणा'],['confidence','आत्मविश्वास'],['interviews','मुलाखती'],['growth','प्रगती'],['speak','बोला']] },
+
+  { id: 20, set: 2, icon: '🧗', topic: 'Failure Is the Best Teacher',
+    marathi: 'अपयशातून काय शिकायला मिळतं ते तुमच्या अनुभवातून सांगा.',
+    seq: [['fall','पडणं'],['hurt','दुखावणं'],['why','का'],['learn','शिकणं'],['change','बदल'],['retry','पुन्हा प्रयत्न'],['improve','सुधारणा'],['success','यश'],['humble','नम्र'],['repeat','पुनरावृत्ती']] },
+
+  /* ---------- 21–30 : TECH ---------- */
+  { id: 21, set: 3, icon: '🤖', topic: 'Artificial Intelligence and Jobs',
+    marathi: 'AI नोकऱ्या घेईल का, की नवीन संधी देईल — तुमचं मत सांगा.',
+    seq: [['replace','बदलणं'],['routine','नेहमीचं'],['automate','स्वयंचलित'],['fear','भीती'],['reshape','पुनर्रचना'],['new roles','नवीन भूमिका'],['reskill','पुनःकौशल्य'],['collaborate','सहकार्य'],['adapt','जुळवून घेणं'],['future','भविष्य']] },
+
+  { id: 22, set: 3, icon: '☁️', topic: 'Cloud: Renting vs Owning',
+    marathi: 'सर्व्हर भाड्याने घेणं चांगलं की स्वतःचा खरेदी करणं — फायदे सांगा.',
+    seq: [['server','सर्व्हर'],['cost','खर्च'],['maintenance','देखभाल'],['scale','विस्तार'],['rent','भाडं'],['flexibility','लवचिकता'],['control','नियंत्रण'],['security','सुरक्षा'],['startup','स्टार्टअप'],['cloud','क्लाउड']] },
+
+  { id: 23, set: 3, icon: '💎', topic: 'Data Is the New Oil',
+    marathi: 'डेटा कसा किंमतीचा आहे आणि त्याचे धोके काय ते सांगा.',
+    seq: [['collect','गोळा करणं'],['store','साठवणं'],['refine','शुद्ध करणं'],['insight','अंतर्दृष्टी'],['value','मूल्य'],['leak','गळती'],['privacy','गोपनीयता'],['regulation','नियमन'],['trust','विश्वास'],['power','शक्ती']] },
+
+  { id: 24, set: 3, icon: '🔓', topic: 'Open Source and Trust',
+    marathi: 'मोफत सॉफ्टवेअरवर विश्वास का ठेवायचा ते सांगा.',
+    seq: [['free','मोफत'],['community','समुदाय'],['review','पुनरावलोकन'],['quality','गुणवत्ता'],['bugs','दोष'],['fix','दुरुस्ती'],['contribute','योगदान'],['license','परवाना'],['business','व्यवसाय'],['trust','विश्वास']] },
+
+  { id: 25, set: 3, icon: '🚀', topic: 'Startup vs MNC',
+    marathi: 'स्टार्टअपमध्ये काम करणं की मोठ्या कंपनीत — दोन्हींचे फायदे-तोटे सांगा.',
+    seq: [['risk','जोखीम'],['ownership','मालकी'],['learning','शिकणं'],['salary','पगार'],['stability','स्थिरता'],['process','प्रक्रिया'],['speed','वेग'],['burnout','थकवा'],['growth','प्रगती'],['choose','निवड']] },
+
+  { id: 26, set: 3, icon: '🔒', topic: "Cybersecurity Is Everyone's Job",
+    marathi: 'सायबर सुरक्षा ही प्रत्येकाची जबाबदारी का आहे ते सांगा.',
+    seq: [['password','पासवर्ड'],['click','क्लिक'],['phishing','फसवणूक'],['breach','भेद'],['cost','खर्च'],['training','प्रशिक्षण'],['habit','सवय'],['report','तक्रार'],['culture','संस्कृती'],['safety','सुरक्षितता']] },
+
+  { id: 27, set: 3, icon: '⚙️', topic: 'Automation and Human Value',
+    marathi: 'मशीन काम करतील तर माणसाची किंमत काय राहील ते सांगा.',
+    seq: [['repeat','पुनरावृत्ती'],['script','स्क्रिप्ट'],['save','वाचवणं'],['time','वेळ'],['create','निर्मिती'],['judge','निर्णय'],['empathise','सहानुभूती'],['decide','ठरवणं'],['design','रचना'],['human','माणूस']] },
+
+  { id: 28, set: 3, icon: '💻', topic: 'Coding: Logic or Language',
+    marathi: 'कोडिंगमध्ये तर्क (logic) जास्त महत्त्वाचा की भाषा — तुमचं मत सांगा.',
+    seq: [['syntax','रचना'],['grammar','व्याकरण'],['logic','तर्क'],['problem','समस्या'],['break','तोडणं'],['solve','सोडवणं'],['debug','दोष दूर करणं'],['practice','सराव'],['think','विचार'],['build','बांधणं']] },
+
+  { id: 29, set: 3, icon: '⛓️', topic: 'The Hype Around Blockchain',
+    marathi: 'ब्लॉकचेन खरंच उपयुक्त आहे की फक्त चर्चा आहे ते सांगा.',
+    seq: [['ledger','खातेवही'],['trust','विश्वास'],['decentralise','विकेंद्रीकरण'],['hype','प्रचार'],['scam','घोटाळा'],['use case','उपयोग'],['supply chain','पुरवठा साखळी'],['records','नोंदी'],['reality','वास्तव'],['patience','संयम']] },
+
+  { id: 30, set: 3, icon: '🎖️', topic: 'Certificates vs Real Projects',
+    marathi: 'नोकरीसाठी सर्टिफिकेट जास्त महत्त्वाचं की खरे प्रोजेक्ट — सांगा.',
+    seq: [['course','अभ्यासक्रम'],['certificate','प्रमाणपत्र'],['resume','बायोडाटा'],['interview','मुलाखत'],['question','प्रश्न'],['blank','रिकामं'],['project','प्रकल्प'],['demo','प्रात्यक्षिक'],['proof','पुरावा'],['hire','नेमणूक']] },
+
+  /* ---------- 31–40 : DEBATE ---------- */
+  { id: 31, set: 4, icon: '🫥', topic: 'Technology Has Made Us Lonely',
+    marathi: 'तंत्रज्ञानामुळे माणसं जवळ आली की दुरावली — तुमचं मत सांगा.',
+    seq: [['connect','जोडणं'],['chat','गप्पा'],['like','आवड'],['shallow','वरवरचं'],['crowd','गर्दी'],['alone','एकटं'],['compare','तुलना'],['delete','डिलीट'],['real','खरं'],['balance','समतोल']] },
+
+  { id: 32, set: 4, icon: '📝', topic: 'Marks Should Be Abolished',
+    marathi: 'मार्क्सची पद्धत बंद करायला हवी का? तुमचं मत सांगा.',
+    seq: [['measure','मोजणं'],['rank','क्रमांक'],['stress','तणाव'],['cheat','फसवणूक'],['skills','कौशल्यं'],['ignore','दुर्लक्ष'],['alternative','पर्याय'],['project','प्रकल्प'],['assess','मूल्यांकन'],['reform','सुधारणा']] },
+
+  { id: 33, set: 4, icon: '🧑‍💻', topic: 'Everyone Should Learn to Code',
+    marathi: 'प्रत्येकाने कोडिंग शिकणं गरजेचं आहे का ते सांगा.',
+    seq: [['useful','उपयुक्त'],['logic','तर्क'],['automate','स्वयंचलित'],['forced','सक्तीचं'],['interest','रुची'],['career','करिअर'],['optional','ऐच्छिक'],['basics','मूलभूत'],['yes','हो'],['limits','मर्यादा']] },
+
+  { id: 34, set: 4, icon: '🔥', topic: 'Hustle Culture Is Toxic',
+    marathi: 'सतत धावण्याची संस्कृती (hustle culture) हानिकारक आहे का ते सांगा.',
+    seq: [['grind','कष्ट'],['praise','कौतुक'],['sleep','झोप'],['burnout','थकवा'],['health','आरोग्य'],['family','कुटुंब'],['guilt','अपराधीपणा'],['output','उत्पादन'],['balance','समतोल'],['slow','हळू']] },
+
+  { id: 35, set: 4, icon: '🎨', topic: 'AI Will Never Replace Creativity',
+    marathi: 'AI माणसासारखी सर्जनशीलता कधीच आणू शकत नाही — कारण सांगा.',
+    seq: [['generate','निर्माण'],['imitate','नक्कल'],['pattern','नमुना'],['emotion','भावना'],['intent','हेतू'],['context','संदर्भ'],['surprise','आश्चर्य'],['feel','जाणवणं'],['human','माणूस'],['original','मूळ']] },
+
+  { id: 36, set: 4, icon: '🏆', topic: 'Experience Beats Degree',
+    marathi: 'नोकरीत अनुभव जास्त महत्त्वाचा की डिग्री — तुमचं मत सांगा.',
+    seq: [['classroom','वर्ग'],['theory','सिद्धांत'],['exam','परीक्षा'],['workplace','कार्यालय'],['client','ग्राहक'],['deadline','मुदत'],['mistake','चूक'],['judgment','निर्णयक्षमता'],['blend','मिश्रण'],['both','दोन्ही']] },
+
+  { id: 37, set: 4, icon: '🏅', topic: 'Failure Should Be Rewarded',
+    marathi: 'अपयशातून शिकण्याला प्रोत्साहन द्यायला हवं का? सांगा.',
+    seq: [['risk','जोखीम'],['try','प्रयत्न'],['fail','अपयश'],['hide','लपवणं'],['punish','शिक्षा'],['learn','शिकणं'],['share','वाटून घेणं'],['reward','बक्षीस'],['culture','संस्कृती'],['grow','वाढणं']] },
+
+  { id: 38, set: 4, icon: '👁️', topic: 'Privacy Is Already Dead',
+    marathi: 'आपली वैयक्तिक माहिती सुरक्षित आहे का? तुमचं मत सांगा.',
+    seq: [['share','वाटून घेणं'],['accept','स्वीकार'],['track','मागोवा'],['target','लक्ष्य'],['ads','जाहिराती'],['data','माहिती'],['leak','गळती'],['reclaim','परत मिळवणं'],['aware','जागरूक'],['choose','निवड']] },
+
+  { id: 39, set: 4, icon: '🔄', topic: 'Change Is the Only Constant',
+    marathi: 'बदल हाच एकमेव स्थिर आहे — बदल स्वीकारणं का गरजेचं ते सांगा.',
+    seq: [['resist','विरोध'],['fear','भीती'],['deny','नकार'],['adapt','जुळवून घेणं'],['learn','शिकणं'],['unlearn','विसरणं'],['grow','वाढणं'],['lead','नेतृत्व'],['normal','सामान्य'],['embrace','स्वीकार']] },
+
+  { id: 40, set: 4, icon: '🌟', topic: 'Success Is Overrated',
+    marathi: 'यश म्हणजे काय आणि ते खरंच सर्वात महत्त्वाचं आहे का ते सांगा.',
+    seq: [['define','व्याख्या'],['chase','पाठलाग'],['compare','तुलना'],['arrive','पोहोचणं'],['empty','रिकामं'],['health','आरोग्य'],['people','लोक'],['purpose','हेतू'],['peace','शांती'],['live','जगणं']] }
+];
+
+/* =========================================================
+   RENDER
+   ========================================================= */
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pad = n => String(n).padStart(2, '0');
+
+function cardHTML(t) {
+  const set = SETS.find(s => s.key === t.set);
+
+  const words = t.seq.map((pair, i) => {
+    const [en, mr] = pair;
+    return `<span class="w">
+      <i>${i + 1}</i>
+      <span class="txt">
+        <span class="en">${esc(en)}</span>
+        <span class="mr">${esc(mr)}</span>
+      </span>
+    </span>`;
+  }).join('');
+
+  return `
+    <article class="card ${set.scls}">
+      <div class="card-top">
+        <div class="icon-wrap" aria-hidden="true">${t.icon}</div>
+        <div class="meta">
+          <span class="num">TOPIC ${pad(t.id)}</span>
+          <h2 class="title">${esc(t.topic)}</h2>
+          <p class="marathi">${esc(t.marathi)}</p>
+        </div>
+      </div>
+      <div class="words">${words}</div>
+    </article>`;
+}
+
+function render() {
+  const out = document.getElementById('out');
+
+  out.innerHTML = SETS.map(set => {
+    const list = TOPICS.filter(t => t.set === set.key);
+    return `
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-tag ${set.tag}"><span class="se">${set.icon}</span>${set.name}</span>
+          <span class="sec-line"></span>
+        </div>
+        <div class="grid">${list.map(cardHTML).join('')}</div>
+      </section>`;
+  }).join('');
+}
+
+render();
+</script>
+</body>
+</html>
